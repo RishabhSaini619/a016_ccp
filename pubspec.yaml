@@ -1,0 +1,27 @@
+name: a016_ccp
+description: Population Census (countries , cities & population)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  get: 4.6.1
+  http: ^0.13.4
+  firebase_core: ^1.17.1
+  flutter_svg_provider: ^1.0.3
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+     - family: Arciform
+       fonts:
+         - asset: assets/fonts/arciform.otf
